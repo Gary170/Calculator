@@ -57,7 +57,7 @@ public class GUI{
     }
 
     public static void createJButton(int x, int y, int width, int height, String buttonText, int tag){
-        JButton jButton = new JButton(buttonText);
+        JButton jButton = new JButton(+buttonText);
         jFrame.add(jButton);
         jButton.setVisible(true);
         jButton.setBounds(x,y,width,height);
